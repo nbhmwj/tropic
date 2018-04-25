@@ -1,5 +1,5 @@
 # tropic
-makecode of demo
+makecode of microbit demo
 
 作者: sjy
 日期: 2018.Mar  
@@ -13,6 +13,6 @@ MIT
 
 ## 支持硬件
 
-
+* for PXT/microbit
 
 
