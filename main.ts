@@ -7,7 +7,9 @@ enum TropicalFruit {
     //% block=Pinapple
     Pinapple = 1,
     //% block=Coconut
-    Coconut = 2
+    Coconut = 2,
+	//% block=apple
+	Apple = 3
 }
 /**
  * Pick some fruit and peel it.
@@ -18,7 +20,7 @@ namespace tropic {
      * Pick a fruit
      */
     //% blockId=tropic_pick block="pick a %fruit"
-    export function pick(fruit: TropicalFruit): boolean {
+    export function pick(fruit:TropicalFruit): boolean {
         return true;
     }
     /**
@@ -27,5 +29,9 @@ namespace tropic {
     //% blockId=tropic_peel block="peel a %fruit"
     export function peel(fruit: TropicalFruit): boolean {
         return (fruit == TropicalFruit.Banana);
-    }
+	}
+	//% blockId=tropic_eat block="I am like eat a %fruit"
+	export function eat(fruit:TropicalFruit):boolean {
+		return(fruit==TropicalFruit);
+	}
 }
