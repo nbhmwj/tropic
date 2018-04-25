@@ -32,6 +32,6 @@ namespace tropic {
 	}
 	//% blockId=tropic_eat block="I am like eat a %fruit"
 	export function eat(fruit:TropicalFruit):boolean {
-		return(fruit==TropicalFruit);
+		return(fruit==TropicalFruit.Apple);
 	}
 }
